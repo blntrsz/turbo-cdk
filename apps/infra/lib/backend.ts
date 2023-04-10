@@ -27,7 +27,7 @@ export class Backend extends Construct {
       },
     });
 
-    const fnDir = join(__dirname, "functions");
+    const fnDir = join(__dirname, "..", "..", "functions", "src");
 
     readdirSync(fnDir).forEach((fn) => {
       const entry = join(fnDir, fn);

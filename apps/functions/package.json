@@ -1,0 +1,19 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "zod": "^3.21.4",
+    "handler": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.114"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

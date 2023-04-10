@@ -16,7 +16,13 @@ export class Pipeline extends Construct {
               "arn:aws:codestar-connections:eu-central-1:155601209279:connection/51dc3226-ffdd-459d-a034-50f9ff503d2b",
           }
         ),
-        commands: ["npm i -g pnpm", "pnpm i", "ls -la", "pnpm infra:deploy"],
+        commands: [
+          "node -v",
+          "npm -v",
+          "npm i -g pnpm@7.30.3",
+          "pnpm i",
+          "pnpm infra:deploy",
+        ],
       }),
     });
   }
